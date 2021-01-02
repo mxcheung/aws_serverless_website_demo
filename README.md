@@ -93,5 +93,9 @@ xhttp.open("GET", "https://6hvavdmcyc.execute-api.us-east-1.amazonaws.com/defaul
 ```
 
 
+Test the serverless website
+
+http://myserverlesswebsite-max.s3-website-us-east-1.amazonaws.com/
+
 
 
