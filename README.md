@@ -20,8 +20,10 @@ https://github.com/ACloudGuru-Resources/course-aws-certified-developer-associate
 # Step by Step
 
 1) Lambda  -->  Python 3.8 
-    Replace codd with
-    
+    Replace code with
+
+https://github.com/ACloudGuru-Resources/course-aws-certified-developer-associate/edit/main/Serverless_Webite_Demo/hellocloudgurus.py
+
 ```
 def lambda_handler(event, context):
     print("In lambda handler")
