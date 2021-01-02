@@ -38,3 +38,52 @@ def lambda_handler(event, context):
     
     return resp
 ```
+
+2.  Add Trigger -  API Gateway
+
+mylambdafunction-API
+
+https://us-east-1.console.aws.amazon.com/apigateway/main/api-detail?api=6hvavdmcyc&region=us-east-1#
+
+
+3.  Add S3  = Static webpage
+
+https://github.com/ACloudGuru-Resources/course-aws-certified-developer-associate/blob/main/Serverless_Webite_Demo/index.html
+
+xhttp.open("GET", "https://6hvavdmcyc.execute-api.us-east-1.amazonaws.com/default/mylambdafunction", true);
+
+```
+<html>
+	<head>
+		<script>
+			function myFunction() {
+				var xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("my-demo").innerHTML = this.responseText;
+					}
+				};
+				xhttp.open("GET", "MY_API_GATEWAY_ENDPOINT_URL", true);
+				xhttp.send();
+
+			}
+
+		</script>
+	</head>
+<body>
+	<div align="center">
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1> <span id="my-demo">Hello Cloud Gurus!</span></h1>
+		<button onclick="myFunction()">Click me</button>	
+	</div>
+
+	</body>
+</html>
+```
+
+
+
+
