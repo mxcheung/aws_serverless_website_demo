@@ -98,4 +98,6 @@ Test the serverless website
 http://myserverlesswebsite-max.s3-website-us-east-1.amazonaws.com/
 
 
+Hello Cloud Gurus! --> Keep being awesome Cloud Gurus!
+
 
