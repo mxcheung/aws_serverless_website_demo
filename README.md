@@ -45,8 +45,14 @@ mylambdafunction-API
 
 https://us-east-1.console.aws.amazon.com/apigateway/main/api-detail?api=6hvavdmcyc&region=us-east-1#
 
+
 Test via http 
     https://6hvavdmcyc.execute-api.us-east-1.amazonaws.com/default/mylambdafunction
+
+
+```
+Keep being awesome Cloud Gurus!
+```
 
 3.  Add S3  = Static webpage
 
